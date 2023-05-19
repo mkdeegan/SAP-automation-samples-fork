@@ -38,8 +38,8 @@ materials:
       url:          https://softwaredownloads.sap.com/file/0020000000080172023
 
     - name:         "SAP ADAPTIVE EXTENSIONS 1.0 EXT ; OS: Linux on x86_64 64bit"
-      archive:      SAPACEXT_76-20010403.SAR
+      archive:      SAPACEXT_77-20010403.SAR
       checksum:     
-      url:          https://softwaredownloads.sap.com/file/0020000000390802023
+      url:          https://softwaredownloads.sap.com/file/0020000000567142023
 
 ...
