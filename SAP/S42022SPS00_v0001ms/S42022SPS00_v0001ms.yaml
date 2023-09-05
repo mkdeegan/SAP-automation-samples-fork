@@ -26,9 +26,9 @@ product_ids:
 
 materials:
   dependencies:
-    - name:                            "HANA_2_00_070_v0001ms"
-    - name:                            "SWPM20SP14_latest"
-    - name:                            "SUM20SP16_latest"
+    - name:                            "HANA_2_00_071_v0001ms"
+    - name:                            "SWPM20SP15_latest"
+    - name:                            "SUM20SP17_latest"
   media:
 
     # SAPCAR 7.22
@@ -73,10 +73,10 @@ materials:
       path:                            download_basket
 
     # MISC
-    - name:                            "SP12 Patch6 for UMML4HANA 1"
-      archive:                         HANAUMML12_6-70001054.ZIP
-      checksum:                        f103c2434f0762bb6210e8fcf26b99490bb26d13be6d6d1981a3e4bbf4f2c8be
-      url:                             https://softwaredownloads.sap.com/file/0020000000356792022
+    - name:                            "SP12 Patch7 for UMML4HANA 1"
+      archive:                         HANAUMML12_7-70001054.ZIP
+      checksum:                        c26328f2fd99eb8188aa4ff66d682818a6c402bc37efd8631ed166ad585ca44d
+      url:                             https://softwaredownloads.sap.com/file/0020000000665292023
       path:                            download_basket
 
     - name:                            "Predi. Analy. APL 2008 for SAP HANA 2.0 SPS03 and beyond"
@@ -296,25 +296,25 @@ materials:
 
     - name:                            "Attribute Change Package 17 for EA-HR 608"
       archive:                         S4HCM100
-      checksum:                        bd4a09eeb95c6ae9c6f873107da4d192d96f4ab7fb10dff4ecd1dae6dd067355
-      url:                             https://softwaredownloads.sap.com/file/0010000001431132022
+      checksum:                        89a1d8cb86855050e6fbbb9ed4613785bf703db181d45ada7d5909e0560bd41c
+      url:                             https://softwaredownloads.sap.com/file/0010000000828662023
       download:                        false
 
-    - name:                            "Attribute Change Package 17 for EA-HR 608"
+    - name:                            "Attribute Change Package 56 for ST-PI 740"
       archive:                         ST-PI740
-      checksum:                        2b87eb02fa26dd8279a37eaa4c1ee64adab8bccbaca668f1e32ff421bdfbf9c8
+      checksum:                        564fcbe7d359516cb09d21098223dd87ca81873777e7d3ab36a2a73b2406871c
       url:                             https://softwaredownloads.sap.com/file/0010000000297212015
       download:                        false
 
-    - name:                            "Attribute Change Package 19 for GBX01HR 600"
+    - name:                            "Attribute Change Package 28 for GBX01HR 600"
       archive:                         GBX01HR5605
-      checksum:                        19d06ed87c3fc1b9390fafa94d9a2d25ddabd3c0e61777a693e6155f113fa167
+      checksum:                        9b5f3fca5b87ba80f4048f857a22b2a63033b58ffb977a19241b1316a4731701
       url:                             https://softwaredownloads.sap.com/file/0010000000033172015
       download:                        false
  
-    - name:                            "UIHR002 100: SP 0001"
+    - name:                            "Attribute Change Package 33 for UIHR002 100"
       archive:                         UIHR002100
-      checksum:                        af4dc627a4e9896a29506cff4b0804085299f97ce8a414ebf930d5bff0aad2b6
+      checksum:                        cf8a38e5b94d27ebc35f1b79ecd7d3363c350518e4d9a7ef0de830c8fc3ba350
       url:                             https://softwaredownloads.sap.com/file/0010000020208092017
       download:                        false
 

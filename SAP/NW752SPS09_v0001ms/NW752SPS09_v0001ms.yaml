@@ -21,11 +21,19 @@ product_ids:
 
 materials:
   dependencies:
-    - name:                            HANA_2_00_067_v0002ms
-    - name:                            SWPM10SP36_latest
-    - name:                            SUM20SP15_latest
+    - name:                            HANA_2_00_067_v0005ms
+    - name:                            SWPM10SP38_latest
+    - name:                            SUM20SP17_latest
 
   media:
+
+    # SAPCAR 7.22
+    - name:                            "SAPCAR 7.22; OS: Linux on x86_64 64bit"
+      archive:                         SAPCAR_1115-70006178.EXE
+      checksum:                        765412436934362cc5497e3d659fbb78be91093a091c11ec4fbe84dfb415a0e5
+      filename:                        SAPCAR
+      permissions:                     '0755'
+      url:                             https://softwaredownloads.sap.com/file/0020000000098642022
 
     # kernel components
 
@@ -81,41 +89,6 @@ materials:
       extract:                         true
       extractDir:                      CD_EXPORT
       tempDir:                         '51051806'
-      creates:                         CDLABEL.ASC
-      url:                             https://softwaredownloads.sap.com/file/0030000019659152017
-
-    # Languages
-    - name:                            "NetWeaver AS ABAP 7.52 Innovation Pkg - Languages 3/2"
-      archive:                         51051806_LNG1_part1.exe
-      checksum:                        98e42ebcb32a6ac6feabf6dd231e0624e4c4f902ab2ad3ad68704563f0a0630c
-      url:                             https://softwaredownloads.sap.com/file/0030000019659262017
-
-    - name:                            "NetWeaver AS ABAP 7.52 Innovation Pkg - Languages 4/2"
-      archive:                         51051806_LNG1_part2.rar
-      checksum:                        a40808749c6fc7f13e75f12c92e11a60fbc90c6622f941d3b0392844bb99610a
-      url:                             https://softwaredownloads.sap.com/file/0030000019659272017
-
-
-    - name:                            "SAP HANA CLIENT 2.0 for NW AS ABAP 7.52"
-      archive:                         51051805.ZIP
-      checksum:                        8dadbb7923ed7b36eaa5c1d103a2bbd216351c233de3c2d627b9e7db5755510e
-      url:                             https://softwaredownloads.sap.com/file/0030000019669572017
-      path:                            download_basket
-
-    # DB Export
-    - name:                            "NetWeaver AS ABAP 7.52 Innovation Pkg - Installation Exp 1/2"
-      archive:                         51051806_part1.exe
-      checksum:                        399228ad1ede56ea97a4676e5cfd9ff2ebccded55b8128718029188bc704682e
-      extract:                         true
-      extractDir:                      CD_EXPORT
-      creates:                         CDLABEL.ASC
-      url:                             https://softwaredownloads.sap.com/file/0030000019659142017
-
-    - name:                            "NetWeaver AS ABAP 7.52 Innovation Pkg - Installation Exp 2/2"
-      archive:                         51051806_part2.rar
-      checksum:                        d968835cadfea8514a552ec977421043649bbb59140629a9dd897a7f0c47480b
-      extract:                         true
-      extractDir:                      CD_EXPORT
       creates:                         CDLABEL.ASC
       url:                             https://softwaredownloads.sap.com/file/0030000019659152017
 
@@ -188,7 +161,7 @@ materials:
 
     - name:                            "ST-PI 740: SP 0016"
       archive:                         K-74016INSTPI.SAR
-      checksum:     0d5a3c74f813dad48345023c7acd146dc9ef84c121c6d854292cb534006c40a5
+      checksum:                        0d5a3c74f813dad48345023c7acd146dc9ef84c121c6d854292cb534006c40a5
       url:                             https://softwaredownloads.sap.com/file/0010000001454472021
       download:                        false
 
@@ -474,25 +447,18 @@ materials:
       url:                             https://softwaredownloads.sap.com/file/0010000020115572017
       download:                        false
 
-    - name:                            "Attribute Change Package 06 for SAP_UI 754"
+    - name:                            "Attribute Change Package 07 for SAP_UI 754"
       archive:                         SAP_UI754.SAR
-      checksum:                        9bbf3de543c5efbbd91e930a606704b2353edda3bb3661b47dee2edca8f3cf80
+      checksum:                        cc0d69286eaec4bd21510984b06f02368df2a84c34e5080c72305bae1498dae4
       url:                             https://softwaredownloads.sap.com/file/0010000000031692020
       download:                        false
 
-    - name:                            "Attribute Change Package 45 for ST-PI 740"
+    - name:                            "Attribute Change Package 56 for ST-PI 740"
       archive:                         ST-PI740.SAR
-      checksum:                        8406c3d057afd459406b3d2fa500a1050eb8ac3c81be165d19af6e5834725328
+      checksum:                        564fcbe7d359516cb09d21098223dd87ca81873777e7d3ab36a2a73b2406871c
       url:                             https://softwaredownloads.sap.com/file/0010000000297212015
       download:                        false
 
     # other components
-
-    - name:                            "SAPCAR"
-      archive:                         SAPCAR_1115-70006178.EXE
-      checksum:                        765412436934362cc5497e3d659fbb78be91093a091c11ec4fbe84dfb415a0e5
-      override_target_filename:        "SAPCAR.EXE"
-      url:                             https://softwaredownloads.sap.com/file/0020000000098642022
-      path:                            download_basket
 
 ...

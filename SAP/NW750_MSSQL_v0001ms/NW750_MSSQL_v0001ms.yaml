@@ -22,7 +22,7 @@ product_ids:
 materials:
   dependencies:
     - name:                     "MSSQLSRV_2019_v0001ms"
-    - name:                     "SUM20SP16_win_latest"
+    - name:                     "SUM20SP17_win_latest"
     - name:                     "SWPM10SP37_win_latest"
 
   media:
@@ -60,7 +60,7 @@ materials:
       path:                            download_basket
 
     # DB export
-    - name:                            "NetWeaver AS ABAP 7.50 Innovation Pkg - Installation Exp"
+    - name:                            "NW 7.5 Installation Export"
       archive:                         51050829_3.ZIP
       checksum:                        06c3a3cd5d1ad266f61ca202552468501d94cfdc7641ffdadf0a9abad82b648a
       extract:                         true
@@ -737,7 +737,7 @@ materials:
       url:                             https://softwaredownloads.sap.com/file/0010000000031692020
       download:                        false
 
-    - name:                            "Attribute Change Package 45 for ST-PI 740"
+    - name:                            "Attribute Change Package 56 for ST-PI 740"
       archive:                         ST-PI740.SAR
       url:                             https://softwaredownloads.sap.com/file/0010000000297212015
       download:                        false

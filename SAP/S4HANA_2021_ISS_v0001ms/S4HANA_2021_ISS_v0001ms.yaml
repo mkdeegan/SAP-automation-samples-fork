@@ -26,9 +26,9 @@ product_ids:
 
 materials:
   dependencies:
-    - name:                            "HANA_2_00_067_v0002ms"
-    - name:                            "SWPM20SP14_latest"
-    - name:                            "SUM20SP16_latest"
+    - name:                            "HANA_2_00_067_v0005ms"
+    - name:                            "SWPM20SP15_latest"
+    - name:                            "SUM20SP17_latest"
   media:
 
     # SAPCAR 7.22
@@ -74,10 +74,10 @@ materials:
       path:                            download_basket
 
     # MISC
-    - name:                            "SP12 Patch6 for UMML4HANA 1"
-      archive:                         HANAUMML12_6-70001054.ZIP
-      checksum:                        f103c2434f0762bb6210e8fcf26b99490bb26d13be6d6d1981a3e4bbf4f2c8be
-      url:                             https://softwaredownloads.sap.com/file/0020000000356792022
+    - name:                            "SP12 Patch7 for UMML4HANA 1"
+      archive:                         HANAUMML12_7-70001054.ZIP
+      checksum:                        c26328f2fd99eb8188aa4ff66d682818a6c402bc37efd8631ed166ad585ca44d
+      url:                             https://softwaredownloads.sap.com/file/0020000000665292023
       path:                            download_basket
 
     - name:                            "Predi. Analy. APL 2008 for SAP HANA 2.0 SPS03 and beyond"
@@ -283,9 +283,9 @@ materials:
       url:                             https://softwaredownloads.sap.com/file/0010000000059642016
       download:                        false
 
-    - name:                            "Attribute Change Package 22 for GBX01HR5 605"
+    - name:                            "Attribute Change Package 28 for GBX01HR5 605"
       archive:                         GBX01HR5605.SAR
-      checksum:                        19d06ed87c3fc1b9390fafa94d9a2d25ddabd3c0e61777a693e6155f113fa167
+      checksum:                        9b5f3fca5b87ba80f4048f857a22b2a63033b58ffb977a19241b1316a4731701
       url:                             https://softwaredownloads.sap.com/file/0010000000033172015
       download:                        false
 
@@ -529,15 +529,15 @@ materials:
       url:                             https://softwaredownloads.sap.com/file/0010000000914092021
       download:                        false
 
-    - name:                            "Attribute Change Package 35 for SAP_HR 608"
+    - name:                            "Attribute Change Package 36 for SAP_HR 608"
       archive:                         SAP_HR608.SAR
-      checksum:                        26ced531487527864dc223d7f8e9c1574803d38519614bae9cdd63cdda9e6e82
+      checksum:                        5156fa6f34989662311371aab548e93878f134e099cd65f80f722131ffbfaf48
       url:                             https://softwaredownloads.sap.com/file/0010000000249512014
       download:                        false
 
-    - name:                            "Attribute Change Package 45 for ST-PI 740"
+    - name:                            "Attribute Change Package 56 for ST-PI 740"
       archive:                         ST-PI740.SAR
-      checksum:                        2b87eb02fa26dd8279a37eaa4c1ee64adab8bccbaca668f1e32ff421bdfbf9c8
+      checksum:                        564fcbe7d359516cb09d21098223dd87ca81873777e7d3ab36a2a73b2406871c
       url:                             https://softwaredownloads.sap.com/file/0010000000297212015
       download:                        false
 
@@ -553,9 +553,9 @@ materials:
       url:                             https://softwaredownloads.sap.com/file/0010000001617952021
       download:                        false
 
-    - name:                            "Attribute Change Package 30 for UIHR002 100"
+    - name:                            "Attribute Change Package 33 for UIHR002 100"
       archive:                         UIHR002100.SAR
-      checksum:                        af4dc627a4e9896a29506cff4b0804085299f97ce8a414ebf930d5bff0aad2b6
+      checksum:                        cf8a38e5b94d27ebc35f1b79ecd7d3363c350518e4d9a7ef0de830c8fc3ba350
       url:                             https://softwaredownloads.sap.com/file/0010000020208092017
       download:                        false
 

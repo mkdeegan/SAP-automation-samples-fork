@@ -25,9 +25,9 @@
 
     materials:
       dependencies:
-        - name:     HANA_2_00_067_v0002ms
-        - name:     SWPM20SP14_latest
-        - name:     SUM20SP16_latest
+        - name:     HANA_2_00_067_v0005ms
+        - name:     SWPM20SP15_latest
+        - name:     SUM20SP17_latest
 
       media:
         # SAPCAR 7.XX
@@ -237,9 +237,9 @@
           url: https://softwaredownloads.sap.com/file/0010000000059642016
           download: false
 
-        - name: "Attribute Change Package 26 for GBX01HR5 605"
+        - name: "Attribute Change Package 28 for GBX01HR5 605"
           archive: GBX01HR5605.SAR
-          checksum: 19d06ed87c3fc1b9390fafa94d9a2d25ddabd3c0e61777a693e6155f113fa167
+          checksum: 9b5f3fca5b87ba80f4048f857a22b2a63033b58ffb977a19241b1316a4731701
           url: https://softwaredownloads.sap.com/file/0010000000033172015
           download: false
 
@@ -969,15 +969,15 @@
           url: https://softwaredownloads.sap.com/file/0010000001758902020
           download: false
 
-        - name: "Attribute Change Package 05 for SAP_BASIS 755"
+        - name: "Attribute Change Package 10 for SAP_BASIS 755"
           archive: SAP_BASIS755.SAR
-          checksum: 95cdf4eac1ffa2f5d69c06d7f219088dac4123a67d345e5fd6d2458c158859c9
+          checksum: 8145454f9a9851af3f6c4d6ebf31e7f179c5e9f8250efeef5055a7580872577b
           url: https://softwaredownloads.sap.com/file/0010000001467632021
           download: false
 
-        - name: "Attribute Change Package 35 for SAP_HR 608"
+        - name: "Attribute Change Package 36 for SAP_HR 608"
           archive: SAP_HR608.SAR
-          checksum: 26ced531487527864dc223d7f8e9c1574803d38519614bae9cdd63cdda9e6e82
+          checksum: 5156fa6f34989662311371aab548e93878f134e099cd65f80f722131ffbfaf48
           url: https://softwaredownloads.sap.com/file/0010000000249512014
           download: false
 
@@ -993,9 +993,9 @@
           url: https://softwaredownloads.sap.com/file/0010000000060132013
           download: false
 
-        - name: "Attribute Change Package 45 for ST-PI 740"
+        - name: "Attribute Change Package 56 for ST-PI 740"
           archive: ST-PI740.SAR
-          checksum: 2b87eb02fa26dd8279a37eaa4c1ee64adab8bccbaca668f1e32ff421bdfbf9c8
+          checksum: 564fcbe7d359516cb09d21098223dd87ca81873777e7d3ab36a2a73b2406871c
           url: https://softwaredownloads.sap.com/file/0010000000297212015
           download: false
 

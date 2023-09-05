@@ -25,8 +25,8 @@ product_ids:
 materials:
   dependencies:
     - name:     HANA_2_00_059_v0006ms
-    - name:     SWPM20SP14_latest
-    - name:     SUM20SP16_latest
+    - name:     SWPM20SP15_latest
+    - name:     SUM20SP17_latest
 
   media:
 
@@ -229,11 +229,11 @@ materials:
       download:     false
       url:          https://softwaredownloads.sap.com/file/0020000000410162020
 
-    - name:         "SP12 Patch6 for UMML4HANA 1"
-      archive:      HANAUMML12_6-70001054.ZIP
-      checksum:     f103c2434f0762bb6210e8fcf26b99490bb26d13be6d6d1981a3e4bbf4f2c8be
+    - name:         "SP12 Patch7 for UMML4HANA 1"
+      archive:      HANAUMML12_7-70001054.ZIP
+      checksum:     c26328f2fd99eb8188aa4ff66d682818a6c402bc37efd8631ed166ad585ca44d
       download:     false
-      url:          https://softwaredownloads.sap.com/file/0020000000356792022
+      url:          https://softwaredownloads.sap.com/file/0020000000665292023
 
     # SPAM
     - name:         "SPAM/SAINT Update - Version 754/0077"
@@ -249,9 +249,9 @@ materials:
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000000059642016
 
-    - name:         "Attribute Change Package 26 for GBX01HR5 605"
+    - name:         "Attribute Change Package 28 for GBX01HR5 605"
       archive:      GBX01HR5605.SAR
-      checksum:     19d06ed87c3fc1b9390fafa94d9a2d25ddabd3c0e61777a693e6155f113fa167
+      checksum:     9b5f3fca5b87ba80f4048f857a22b2a63033b58ffb977a19241b1316a4731701
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000000033172015
 
@@ -933,15 +933,15 @@ materials:
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000001496942020
 
-    - name:         "Attribute Change Package 33 for SAP_HR 608"
+    - name:         "Attribute Change Package 36 for SAP_HR 608"
       archive:      SAP_HR608.SAR
-      checksum:     26ced531487527864dc223d7f8e9c1574803d38519614bae9cdd63cdda9e6e82
+      checksum:     5156fa6f34989662311371aab548e93878f134e099cd65f80f722131ffbfaf48
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000000249512014
 
-    - name:         "Attribute Change Package 06 for SAP_UI 754"
+    - name:         "Attribute Change Package 07 for SAP_UI 754"
       archive:      SAP_UI754.SAR
-      checksum:     9bbf3de543c5efbbd91e930a606704b2353edda3bb3661b47dee2edca8f3cf80
+      checksum:     cc0d69286eaec4bd21510984b06f02368df2a84c34e5080c72305bae1498dae4
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000000031692020
 
@@ -957,9 +957,9 @@ materials:
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000001964502018
 
-    - name:         "Attribute Change Package 45 for ST-PI 740"
+    - name:         "Attribute Change Package 56 for ST-PI 740"
       archive:      ST-PI740.SAR
-      checksum:     2b87eb02fa26dd8279a37eaa4c1ee64adab8bccbaca668f1e32ff421bdfbf9c8
+      checksum:     564fcbe7d359516cb09d21098223dd87ca81873777e7d3ab36a2a73b2406871c
       download:     false
       url:          https://softwaredownloads.sap.com/file/0010000000297212015
 
