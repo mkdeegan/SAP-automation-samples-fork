@@ -20,26 +20,26 @@ materials:
 
     # SAP Host Agent
     - name:         "SAP HOST AGENT 7.22 SP61 ; OS: Linux on x86_64 64bit"
-      archive:      SAPHOSTAGENT60_61-80004822.SAR
-      checksum:     
+      archive:      SAPHOSTAGENT61_61-80004822.SAR
+      # checksum:     
       path:         download_basket
       url:          https://softwaredownloads.sap.com/file/0020000000867792023
 
     - name:         "SAP HOST AGENT 7.22 SP60 ; OS: Linux on x86_64 64bit"
       archive:      saphostagentrpm_61-80004822.rpm
-      checksum:     
+      # checksum:     
       path:         download_basket
       url:          https://softwaredownloads.sap.com/file/0020000000776892023
 
     # SAP Adaptive Extensions
     - name:         "SAP ADAPTIVE EXTENSIONS 1.0 ; OS: Linux on x86_64 64bit"
       archive:      SAPACEXT_75-20010488.SAR
-      checksum:     
+      # checksum:     
       url:          https://softwaredownloads.sap.com/file/0020000000080172023
 
     - name:         "SAP ADAPTIVE EXTENSIONS 1.0 EXT ; OS: Linux on x86_64 64bit"
       archive:      SAPACEXT_77-20010403.SAR
-      checksum:     
+      # checksum:     
       url:          https://softwaredownloads.sap.com/file/0020000000567142023
 
 ...
