@@ -21,7 +21,7 @@ materials:
     # SAP Host Agent
     - name:         "SAP HOST AGENT 7.22 SP61 ; OS: Linux on x86_64 64bit"
       archive:      SAPHOSTAGENT61_61-80004822.SAR
-      # checksum:     
+      checksum:     280c13ca76d3b2fb1aba5cccdff9b9e3ae7988f6ca5f2553563fd2360dc8f688
       path:         download_basket
       url:          https://softwaredownloads.sap.com/file/0020000000867792023
 
