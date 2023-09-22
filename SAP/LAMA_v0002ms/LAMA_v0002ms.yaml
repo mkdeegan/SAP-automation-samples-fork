@@ -1,0 +1,37 @@
+---
+# Download time:  xx Minutes (xx xB)
+#
+name:      "SAP Host Agent 7.22 SP61"
+filename:  'LAMA_v0001ms'
+target:    'SAP Host Agent 7.22 SP61'
+version:   2
+platform:  "NONE"
+
+materials:
+  media:
+
+  # SAPCAR 7.22
+    - name:         "SAPCAR 7.22; OS: Linux on x86_64 64bit"
+      archive:      SAPCAR_1115-70006178.EXE
+      checksum:     765412436934362cc5497e3d659fbb78be91093a091c11ec4fbe84dfb415a0e5
+      filename:     SAPCAR
+      permissions:  '0755'
+      url:          https://softwaredownloads.sap.com/file/0020000000098642022
+
+    # SAP Host Agent
+    - name:         "SAP HOST AGENT 7.22 SP61 ; OS: Linux on x86_64 64bit"
+      archive:      SAPHOSTAGENT61_61-80004822.SAR
+      checksum:     280c13ca76d3b2fb1aba5cccdff9b9e3ae7988f6ca5f2553563fd2360dc8f688
+      extract:      true
+      extractDir:   SAPHOSTAGENT
+      creates:      SIGNATURE.SMF
+      url:          https://softwaredownloads.sap.com/file/0020000000867792023
+
+    # SAP Adaptive Extensions
+    - name:         "SAP ADAPTIVE EXTENSIONS 1.0 EXT ; OS: Linux on x86_64 64bit"
+      archive:      SAPACEXT_78-20010403.SAR
+      checksum:     1937cb6805a92424fa15a91b4c29911a9b7054e3ec42e11d0741717dc4c6deee
+      filename:     SAPACEXT.SAR
+      url:          https://softwaredownloads.sap.com/file/0020000001071532023
+
+...
